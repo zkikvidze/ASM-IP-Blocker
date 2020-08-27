@@ -4,6 +4,13 @@ Simple F5 BIG-IP ASM API Client, which blocks or unblocks ip address for given p
 
 Works on Python 2 and Python 3.
 
+requiered python libraries:
+
+requests
+argparse
+
+
+
 Before use, you need to change **asmaddress** and **auth** variables in the file.
 
 Usage:
