@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description='F5 ASM IP Address Blocker')
 
 parser.add_argument('-a', '--address', help='IP Address', required=True)
 parser.add_argument('-p', '--policy', help='Policy Full path. Example: /Common/website.ge_policy', required=True)
-parser.add_argument('-o', '--operation', choices=['block', 'unblock'], help='Type operation. Allowed values are: block OR unblock', required=True)
+parser.add_argument('-o', '--operation', choices=['block', 'unblock'], help='Type of operation. Allowed values are: block OR unblock', required=True)
 args = parser.parse_args()
 
 asmauth = "Basic " + auth
