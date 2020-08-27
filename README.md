@@ -31,7 +31,7 @@ optional arguments:
 
   -o {block,unblock}, --operation {block,unblock}
 
-                        Type operation. Allowed values are: block OR unblock
+                        Type of operation. Allowed values are: block OR unblock
 
 ```
 
