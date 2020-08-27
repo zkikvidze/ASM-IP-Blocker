@@ -1,5 +1,3 @@
-#Created By Zkikvidze
-
 import requests
 import json
 import argparse
