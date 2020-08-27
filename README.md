@@ -6,8 +6,8 @@ Works on Python 2 and Python 3.
 
 requiered python libraries:
 
-requests
-argparse
+- requests
+- argparse
 
 
 
