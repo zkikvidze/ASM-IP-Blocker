@@ -20,7 +20,7 @@ asmauth = "Basic " + auth
 
 
 def getPolicyId(fullPath):
-	asmurl = "https://" + asmaddress + "/mgmt/tm/asm/policies?$select=id&$filter=name eq '" + fullPath + "'"
+	asmurl = "https://" + asmaddress + "/mgmt/tm/asm/policies?$select=id&$filter=fullPath eq '" + fullPath + "'"
 	headers = {"Authorization": asmauth}
 	r = requests.get(asmurl, verify=False, headers=headers)
 	js = r.json()
